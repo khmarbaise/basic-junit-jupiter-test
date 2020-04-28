@@ -7,6 +7,7 @@ class FirstTest {
 
   @Test
   void first_test_method() {
-    Assertions.assertEquals(true, true);
+    First first = new First();
+    Assertions.assertEquals(true, first.isThisTrue());
   }
 }
