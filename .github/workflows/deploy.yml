@@ -15,7 +15,8 @@
 # specific language governing permissions and limitations
 # under the License.
 #
-name: Deploy
+name: SiteDeploy
+
 on:
   push:
     branches:
@@ -28,12 +29,12 @@ jobs:
     container: "maven:3.6.3-jdk-11-slim"
     steps:
       - name: 'Checkout'
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
-      - name: 'Build'
+      - name: 'Build-Site'
         run: mvn -V --no-transfer-progress mvn clean verify site:site site:stage
-      - name: 'Deploy to site'
+      - name: 'Deploy to gh-pages'
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
