@@ -19,6 +19,7 @@
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)][license]
 [![JDKBuilds](https://github.com/khmarbaise/basic-junit-jupiter-test/workflows/JDKBuilds/badge.svg)][jdkbuilds]
 [![Main](https://github.com/khmarbaise/basic-junit-jupiter-test/workflows/Main/badge.svg)][mainbuilds]
+[![SitePublishing](https://github.com/khmarbaise/basic-junit-jupiter-test/workflows/SitePublishing/badge.svg)][published-site]
 [![Issues](https://img.shields.io/github/issues/khmarbaise/basic-junit-jupiter-test)](https://github.com/khmarbaise/basic-junit-jupiter-test/issues)
 [![Issues Closed](https://img.shields.io/github/issues-closed/khmarbaise/basic-junit-jupiter-test)](https://github.com/khmarbaise/basic-junit-jupiter-test/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -27,4 +28,4 @@
 [license]: https://www.apache.org/licenses/LICENSE-2.0
 [jdkbuilds]: https://github.com/khmarbaise/basic-junit-jupiter-test/actions?query=workflow%3AJDKBuilds
 [mainbuilds]: https://github.com/khmarbaise/basic-junit-jupiter-test/actions?query=workflow%3AMain
-
+[published-site]: https://khmarbaise.github.io/basic-junit-jupiter-test/
