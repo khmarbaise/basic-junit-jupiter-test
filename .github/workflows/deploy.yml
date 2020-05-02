@@ -26,13 +26,14 @@ jobs:
   update-site:
     name: Linux
     runs-on: ubuntu-latest
-    container: "maven:3.6.3-jdk-11-slim"
     steps:
       - name: 'Checkout'
         uses: actions/checkout@v2
         with:
           persist-credentials: false
       - name: 'Build-Site'
+        with:
+          java-version: 11
         run: mvn -V --no-transfer-progress clean verify site:site site:stage
       - name: 'Deploy to gh-pages'
         uses: JamesIves/github-pages-deploy-action@releases/v3
