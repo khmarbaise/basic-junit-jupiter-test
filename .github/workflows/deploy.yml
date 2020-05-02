@@ -33,7 +33,7 @@ jobs:
         with:
           persist-credentials: false
       - name: 'Build-Site'
-        run: mvn -V --no-transfer-progress mvn clean verify site:site site:stage
+        run: mvn -V --no-transfer-progress clean verify site:site site:stage
       - name: 'Deploy to gh-pages'
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
