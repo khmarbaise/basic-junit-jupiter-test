@@ -30,11 +30,11 @@ jobs:
   openjdk:
     strategy:
       matrix:
-        jdk: [8-slim, 11-slim, 13, 14]
+        jdk: [11-slim, 13, 14]
     name: "OpenJDK ${{ matrix.jdk }}"
     runs-on: ubuntu-latest
     container: "maven:3.6.3-jdk-${{ matrix.jdk }}"
     steps:
       - uses: actions/checkout@master
       - name: Test
-        run: mvn -V --no-transfer-progress clean verify --fail-at-end -Dcheckstyle.skip=true
+        run: mvn -V --no-transfer-progress clean verify --fail-at-end
