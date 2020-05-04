@@ -1,0 +1,29 @@
+-classpath
+'/home/runner/work/basic-junit-jupiter-test/basic-junit-jupiter-test/target/classes:/home/runner/work/basic-junit-jupiter-test/basic-junit-jupiter-test/target/test-classes:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/runner/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/runner/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar'
+-encoding
+'UTF-8'
+-protected
+-quiet
+--release
+8
+-sourcepath
+'/home/runner/work/basic-junit-jupiter-test/basic-junit-jupiter-test/src/test/java:/home/runner/work/basic-junit-jupiter-test/basic-junit-jupiter-test/target/generated-test-sources/test-annotations'
+-author
+-bottom
+'Copyright &#169; 2011&#x2013;2020 <a href="https://www.soebes.com">SoftwareEntwicklung Beratung Schulung</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/runner/work/basic-junit-jupiter-test/basic-junit-jupiter-test/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'basic-test-junit-jupiter 1.0-SNAPSHOT Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/runner/work/basic-junit-jupiter-test/basic-junit-jupiter-test/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'basic-test-junit-jupiter 1.0-SNAPSHOT Test API'
