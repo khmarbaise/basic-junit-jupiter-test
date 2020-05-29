@@ -1,3 +1,4 @@
+prerelease: true
 name-template: $NEXT_PATCH_VERSION
 tag-template: $NEXT_PATCH_VERSION
 template: |
@@ -9,11 +10,11 @@ categories:
     labels:
       - type/enhancement
   - title: 🐛 Bug Fixes
-    label: type/bug
+    label: bug
   - title: 📖 Documentation
-    label: type/documentation
+    label: documentation
   - title: 🧹 Housekeeping
     labels:
-      - type/housekeeping
+      - housekeeping
   - title: 📦 Dependency updates
-    label: type/dependency-upgrade
+    label: dependency-upgrade
