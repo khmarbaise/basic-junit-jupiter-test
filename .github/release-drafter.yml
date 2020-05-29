@@ -6,15 +6,15 @@ template: |
 
   $CHANGES
 categories:
-  - title: 🚀 Enhancements
+  - title: '🚀 Enhancements'
     labels:
-      - type/enhancement
-  - title: 🐛 Bug Fixes
-    label: bug
+      - 'enhancement'
+  - title: '🐛 Bug Fixes'
+    label: 'bug'
   - title: 📖 Documentation
-    label: documentation
-  - title: 🧹 Housekeeping
+    label: 'documentation'
+  - title: '🧹 Housekeeping'
     labels:
-      - housekeeping
-  - title: 📦 Dependency updates
-    label: dependency-upgrade
+      - 'housekeeping'
+  - title: '📦 Dependency updates'
+    label: 'dependency-upgrade'
