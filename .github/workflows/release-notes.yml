@@ -13,13 +13,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUTPUT_FOLDER: temp_release_notes
-          USE_MILESTONE_TITLE: "true"
       - name: deploy release notes for milestone ${{ github.event.milestone.title }}
         uses: ncipollo/release-action@v1
         with:
           replacesArtifacts: false
           allowUpdates: true
-          bodyFile: temp_release_notes/${{ github.event.milestone.title }}.md
+          bodyFile: temp_release_notes/release_file.md
           draft: false
           tag: ${{ github.event.milestone.title }}
           prerelease: false
