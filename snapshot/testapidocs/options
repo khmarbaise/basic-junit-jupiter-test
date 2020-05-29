@@ -18,7 +18,7 @@
 -docencoding
 'UTF-8'
 -doctitle
-'basic-test-junit-jupiter 2.0-SNAPSHOT Test API'
+'basic-test-junit-jupiter 0.1.0-SNAPSHOT Test API'
 -link
 '../apidocs'
 -linkoffline
@@ -26,4 +26,4 @@
 -use
 -version
 -windowtitle
-'basic-test-junit-jupiter 2.0-SNAPSHOT Test API'
+'basic-test-junit-jupiter 0.1.0-SNAPSHOT Test API'
