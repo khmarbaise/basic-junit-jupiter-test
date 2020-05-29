@@ -2,7 +2,7 @@
 on:
   milestone:
     types: [closed]
-name: Milestone Closure
+name: Generate Release Notes and Publish
 jobs:
   create-release-notes:
     runs-on: ubuntu-latest
