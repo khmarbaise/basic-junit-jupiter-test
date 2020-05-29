@@ -21,5 +21,6 @@ jobs:
           allowUpdates: true
           bodyFile: temp_release_notes/release_file.md
           draft: false
+          tag: ${{ github.event.milestone.title }}
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
